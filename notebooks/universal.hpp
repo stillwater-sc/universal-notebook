@@ -7,6 +7,8 @@
 #include <string>
 #include <fstream>
 #include "xtl/xbase64.hpp"
+#include "nlohmann/json.hpp"
+
 namespace image
 {
     struct png
@@ -20,9 +22,9 @@ namespace image
         std::stringstream m_buffer;
     };
 
-    LibKet::utils::json mime_bundle_repr(const png& i)
+    nl::json mime_bundle_repr(const png& i)
     {
-        auto bundle = LibKet::utils::json::object();
+        auto bundle = nl::json::object();
         bundle["image/png"] = xtl::base64encode(i.m_buffer.str());
         return bundle;
     }
