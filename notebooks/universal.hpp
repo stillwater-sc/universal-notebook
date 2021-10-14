@@ -1,5 +1,8 @@
 #pragma once
 
+#include <iostream>
+#include <iomanip>
+
 // Set include paths
 #pragma cling add_include_path("/home/jovyan/universal/include/")
 
