@@ -9,13 +9,13 @@
 * Number Systems
     - Fixed-sized
     	* Integer
-	    - [integer<nbits>](https://mybinder.org/v2/gh/stillwater-sc/universal-notebook/main?filepath=notebooks%2Fintro_integer.ipynb)
+		    - [integer<nbits>](https://mybinder.org/v2/gh/stillwater-sc/universal-notebook/main?filepath=notebooks%2Fintro_integer.ipynb)
 	* Fixed-point
-    	    - [fixpnt<nbits,rbits>](https://mybinder.org/v2/gh/stillwater-sc/universal-notebook/main?filepath=notebooks%2Fintro_fixpnt.ipynb)
+		    - [fixpnt<nbits,rbits>](https://mybinder.org/v2/gh/stillwater-sc/universal-notebook/main?filepath=notebooks%2Fintro_fixpnt.ipynb)
 	* Floating-point
-    	    - [cfloat<nbits,es>](https://mybinder.org/v2/gh/stillwater-sc/universal-notebook/main?filepath=notebooks%2Fintro_cfloat.ipynb)
+		    - [cfloat<nbits,es>](https://mybinder.org/v2/gh/stillwater-sc/universal-notebook/main?filepath=notebooks%2Fintro_cfloat.ipynb)
 	* Tapered Floating-point
-    	    - [posit<nbits,es>](https://mybinder.org/v2/gh/stillwater-sc/universal-notebook/main?filepath=notebooks%2Fintro_posit.ipynb)
+		    - [posit<nbits,es>](https://mybinder.org/v2/gh/stillwater-sc/universal-notebook/main?filepath=notebooks%2Fintro_posit.ipynb)
     - Variable-sized
     	* Integer
 	    - [decimal](https://mybinder.org/v2/gh/stillwater-sc/universal-notebook/main?filepath=notebooks%2Fintro_decimal.ipynb)
